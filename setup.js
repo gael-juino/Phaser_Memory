@@ -9,7 +9,7 @@ var config = {
       debug: true
     }
   },
-  scene: [ville, quartier, piece]
+  scene: [game]
 };
 
-var game = new Phaser.Game(config);
+var jeu = new Phaser.Game(config);
